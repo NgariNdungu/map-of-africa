@@ -35,7 +35,7 @@ searchInput.addEventListener('input', (e) => {
             li.textContent = country.name;
             li.className = 'px-4 py-2 cursor-pointer hover:bg-gray-200';
             li.addEventListener('click', () => {
-                map.fitBounds(country.bounds);
+                map.flyToBounds(country.bounds);
                 searchInput.value = country.name;
                 searchResults.innerHTML = '';
             });
