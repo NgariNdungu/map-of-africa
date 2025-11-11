@@ -1,1 +1,0 @@
-// This file is no longer used in the vanilla JavaScript version of the application.
